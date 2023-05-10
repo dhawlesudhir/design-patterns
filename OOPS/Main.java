@@ -3,6 +3,8 @@ package OOPS;
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("null");
+        Base baseobj = new Base();
+        baseobj.feature1();
+        baseobj.feature2();
     }
 }
