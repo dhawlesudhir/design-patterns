@@ -3,8 +3,10 @@ package OOPS;
 public class Main {
     
     public static void main(String[] args) {
-        Base baseobj = new Base();
-        baseobj.feature1();
-        baseobj.feature2();
+        DerivedInterface obj = new DerivedInterface("testingclass");
+        obj.BaseInterfaceFeature1();
+        obj.BaseInterfaceFeature2();
+        obj.BaseAbstractFeature1();
+        obj.BaseAbstractFeature2();
     }
 }
